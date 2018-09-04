@@ -1,0 +1,35 @@
+
+<view class='container'>
+    <view class='personimg'>
+    <image src='/images/ti.gif'></image>
+    <text class='username'>username:  {{userInfo.nickName}}</text>
+    </view>
+
+     <view class='aboutperson'
+     > 
+       <button  class='goStudy' bindtap='handleClickmusic'>音乐</button>
+       <view class='xingqing' bindtap='handshijie'> 世界</view>
+        <view class='textarea'><text >每天一点点就好，生活很美好，天天好心情</text></view>
+        <view class='personother'>
+
+        <view class='otherone'>
+        <!-- <image src='https://is4-ssl.mzstatic.com/image/thumb/Features115/v4/9e/15/ed/9e15ede1-0772-e67d-b490-e8d9c971c05c/source/836x600bb.jpg'></image>
+        <image src='https://is1-ssl.mzstatic.com/image/thumb/Features118/v4/95/f9/7d/95f97dfd-64b7-e1a4-9eb4-4a8e428fd0ca/source/836x600bb.jpg'></image>
+        <image src='https://is4-ssl.mzstatic.com/image/thumb/Features128/v4/07/33/5d/07335d2a-c20a-78a3-2f2f-147934f2fd40/source/836x600bb.jpg'></image> -->
+        <view></view>
+         <view></view>
+          <view></view>
+           <view></view>
+        </view>
+
+        <view class='othertwo'>
+
+        </view>
+
+        </view>
+
+
+     </view>
+     
+  
+</view>

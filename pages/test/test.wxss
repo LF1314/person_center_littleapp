@@ -1,0 +1,6 @@
+/* pages/test/test.wxss */
+.wraper{
+  height: 200rpx;
+  width: 100%;
+  background-color: #3333;
+}

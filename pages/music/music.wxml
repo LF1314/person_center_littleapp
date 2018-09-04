@@ -1,0 +1,20 @@
+<!--pages/music/music.wxml-->
+
+<view class='inner'>
+<view class='navbar'> <text>音乐</text> <text>歌名</text> <text>歌手</text></view>
+<navigator wx:for="{{musicdata}}" wx:key="{{index}}" url='/pages/musicopen/musicopen?id={{index}}'>
+
+<view class='musicmessage'>
+  <view class='musicicon'>
+  <image class='text1' src='/images/musicicon.png'></image>
+  </view>
+  <text>{{item.data.songname}}</text>
+  <text class='text1'>{{item.data.singer[0].name}}</text>
+</view>
+</navigator>
+</view>
+
+
+
+
+

@@ -1,0 +1,12 @@
+/* pages/images/images.wxss */
+.imageswraper{
+  display: flex;
+ flex-wrap: wrap;
+ width: 100%;
+ justify-content: space-around;
+
+}
+.imageswraper image{
+  width:45%;
+
+}

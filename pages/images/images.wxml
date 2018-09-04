@@ -1,0 +1,6 @@
+<!--pages/images/images.wxml-->
+<view class='imageswraper'>
+
+<image wx:for="{{images}}" wx:key="{{index}}" src='https://goss.veer.com/creative/vcg/veer/612/veer-{{item.id}}.jpg' mode='widthFix' bindtap='handleimg' id="{{item.id}}">
+</image>
+</view>
